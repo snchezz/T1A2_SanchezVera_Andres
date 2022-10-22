@@ -3,7 +3,7 @@
 # Andrés Sánchez
 
 # Exit code 0: Todo ha funcionado correctamente.
-# Exit code 1: Se ha dejado vacio o no es un número.
+# Exit code 1: El valor se ha dejado vacio o no es un número.
 # Exit code 2: El número ha superado el máximo permitido.
 # Exit code 3: El número ha superado el mínimo permitido.
 

@@ -1,6 +1,12 @@
 #!/bin/bash
 
+# Andrés Sánchez
+
+# Exit code 0: Todo ha funcionado correctamente.
+# Exit code 1: El valor se ha dejado vacio o no es un número.
+
 # Creamos una función para comprobar que se ha introducido un parametros y si es un número.
+
 function comprobarNum {
 
     echo "Escribe un número para saber si es multiplo de 10"
@@ -19,11 +25,11 @@ function comprobarNum {
 comprobarNum
 
 # Creamos una varibale que va a calcular el resto, si este es 0, sabremos si es un multiplo de 10.
-resto=$((num % 10))
+restoDiv=$((num % 10))
 
 # Creamos un if para comparar si el resultado del resto es 0 o no.
-if [ $resto -eq "0" ]; then
-    echo "$num es multiplo de 10 porque el resto es: $resto"
+if [ $restoDiv -eq "0" ]; then
+    echo "$num es multiplo de 10 porque el resto es: $restoDiv"
 else
-    echo "$num no es multiplo de 10 porque el resto es: $resto"
+    echo "$num no es multiplo de 10 porque el resto es: $restoDiv"
 fi
