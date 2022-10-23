@@ -1,17 +1,18 @@
 #!/bin/bash
 
-function suma {
-    suma=0
-    for numero in "$@"; do
-        suma=$(echo "$suma + $numero" | bc)
-    done
-    echo "La suma de todos los digitos es: $suma"
-}
+# VariableS:
+RES=0
+# Bucle:
+read num1
+read num2
+for VAR in $(seq $num1 $num2); do
+    RES=$(expr $RES + $VAR)
+done
+# Resultado:
+echo "El resultado es $RES."
 
 function sequensia {
-    read num1
-    read num2
     seq -s "+" $num1 $num2
 }
-# suma
-# sequensia
+
+sequensia
