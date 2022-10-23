@@ -13,7 +13,7 @@ function horoscopoChino {
 
     if ! [ "$num" -eq "$num" ] 2>/dev/null; then
         # Si no se ha introducido un número o parametro, se notificara al usuario.
-        echo "El valo introducido esta vacio o no es un número. ¡Compruebalo!, Recuerda que deben de ser tu año de nacimiento."
+        echo "El valor introducido esta vacio o no es un número. ¡Compruebalo!, Recuerda que deben de ser tu año de nacimiento."
         exit 1
     else
         # Si el valor introducido es un número, se comprobara con la función especicamente creada para ello.
