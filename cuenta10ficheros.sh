@@ -31,11 +31,10 @@ else
                 echo "El directorio tiene mas de 10 ficheros, tiene $numFicheros"
             else
                 # Si no hay mas de 10, se mostrará un mensaje de aviso
-                echo "ATENCIÓN: El directorio $1 no tiene mas de 10 ficheros"
+                echo "ATENCIÓN: El directorio $1 no tiene mas de 10 ficheros."
             fi
         else
-
-            echo "El directorio ${1} no existe"
+            echo "El directorio ${1} no existe, por lo tanto no se puede contar sus ficheros."
             exit 3
         fi
     fi
