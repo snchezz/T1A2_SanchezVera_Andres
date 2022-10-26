@@ -1,0 +1,5 @@
+./calculadora.sh: línea 15: [: texto: se esperaba una expresión entera
+mié 26 oct 2022 15:05:51 CEST
+./calculadora.sh: línea 22: [: texto: se esperaba una expresión entera
+mié 26 oct 2022 15:05:58 CEST
+mié 26 oct 2022 15:25:11 CEST
