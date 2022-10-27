@@ -11,6 +11,7 @@
 # Creamos la función para el siguiente usuario
 function otroUsuario {
     if id "$user" >>ejerciciousuarios.log 2>&1; then
+        echo "Usuario: $user"
         id $user | cut -d ',' -f1
         exit 0
     else
